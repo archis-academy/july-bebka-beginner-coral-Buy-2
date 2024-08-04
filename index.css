@@ -1,0 +1,29 @@
+.div-1 {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family:"Roboto Light", sans-serif;
+    font-size: 15px;
+    display: block;
+    margin-top: 10px ;
+    font-weight: lighter;
+   
+      
+    
+
+  }
+  .div-2 {
+    width: 248px; 
+  height: 208px;   
+    display: block;    
+    margin-left: 150px;
+    margin-top: -500px;
+    margin-right: 200px;
+   
+  
+    
+  }
+  
+  
+  
+  
+     
