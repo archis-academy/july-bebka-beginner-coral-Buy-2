@@ -1,0 +1,64 @@
+.main-munu-template{
+    margin: 0;
+    padding: 0;
+    border: 2px solid rgb(202, 44, 4);
+    width: 1320px ;
+    height: 113px ;
+}
+
+.search-icon{
+
+}
+
+.first-line{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(3, 50, 138) ;
+
+}
+
+.Title{
+    display: inline;
+    
+
+}
+
+.right-box{
+    margin-block-start: 25px;
+
+}
+
+.right-1{
+
+}
+
+.right-2{
+    
+}
+
+.right-text{
+    display: inline;
+    height: 25px;
+    
+    
+}
+
+.menu-buttons{
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: none;
+    outline: none;
+    
+}
+
+.menu-button{
+    
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+    
+    
+}
