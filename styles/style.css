@@ -4,8 +4,8 @@
     place-items: center;
     background-color: #1E28320D;
     height: auto;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .newsletter-section .instagram-container {
     padding: 10px;
@@ -16,10 +16,10 @@
     text-align: center;
 }
 .newsletter-section .instagram-title .title {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 58px;
     font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+    font-weight: bolder;
 }
 .newsletter-section .instagram-container  .instagram-album {
     gap: 24px;
