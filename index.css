@@ -1,4 +1,4 @@
-.div-1 {
+.baslik {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     font-family:"Roboto Light", sans-serif;
@@ -7,23 +7,46 @@
     margin-top: 10px ;
     font-weight: lighter;
    
-      
-    
 
   }
-  .div-2 {
-    width: 248px; 
-  height: 208px;   
-    display: block;    
-    margin-left: 150px;
-    margin-top: -500px;
-    margin-right: 200px;
-   
-  
+  .img1 {
+   margin-top: -580px;
+   margin-left: 65px;
     
   }
+
+
+.img2 {
+  margin-top: -652px;
+  margin-left: 733px;
+ 
+
   
+}
+
+
+.img3 {
+  margin-top: -316px;
+  margin-left: 1060px;
+ 
+
   
+}
+  
+.img4 {
+  margin-top: 16px;
+  margin-left: 733px;
+ 
+
+  
+}
+
+.img5 {
+  margin-top: -317px;
+  margin-left: 1060px;
+
+  
+}
   
   
      
