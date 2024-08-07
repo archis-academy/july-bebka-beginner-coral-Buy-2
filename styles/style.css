@@ -1,3 +1,105 @@
+/* ===== Best Sellers Carousel Start ====*/
+.best-sellers-section{
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    width: 1320px;
+    height: 639px;
+    gap: 35px;
+    opacity: 0px;
+    margin-bottom: 5%;
+}
+.section-title{
+    color:#000000;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 58.59px;
+    text-align: center;
+}
+.top-section-products{
+    display: flex;
+    justify-content: space-between;
+}
+.best-sellers-section ul{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.best-sellers-section li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.best-sellers-section a{
+    text-decoration: none;
+    color:#00000080;
+}
+.best-sellers-section a:hover{
+    color: #000000;
+}
+.btn-syle{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: #1E2832;
+    width: 93px;
+    height: 32px;
+}
+.products-card-category{
+    display: flex;
+    justify-content: space-between;
+}
+.card-body{
+    margin-top: 10px;
+    gap: 5px;
+    width: 292px;
+    height: 60px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+.body-subtitle{
+    margin-top: 10px;
+    color: #00000080;
+    display: flex;
+    justify-content: space-between;
+}
+.discount-price{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: auto;
+    margin-left: 12px;
+}
+.text-line-through {
+    text-decoration: line-through;
+}
+.fs-16{ 
+    font-size: 16px;
+}
+.card-1{
+    opacity:20%;
+}
+.text-red {
+    color: #FF6F61!important;
+}
+.text-black-opc {
+    color: #00000080!important;
+}
+.text-black {
+    color: #000!important;
+}
+
+/* ====== Best Sellers Carousel End ==== */
+
 /* Cta-Section Start */
 .newsletter-section {
     display: grid;
