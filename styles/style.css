@@ -39,7 +39,10 @@
     color:#00000080;
 }
 .best-sellers-section a:hover{
-    color: #000000;
+    color: #FF6F61;
+}
+.btn-syle:hover{
+    background-color: #FF6F61;
 }
 .btn-syle{
     font-family: "Open Sans";
@@ -49,6 +52,9 @@
     background-color: #1E2832;
     width: 93px;
     height: 32px;
+    cursor: pointer;
+    border: none;
+    
 }
 .products-card-category{
     display: flex;
