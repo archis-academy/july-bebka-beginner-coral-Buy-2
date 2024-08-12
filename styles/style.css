@@ -1,64 +1,105 @@
-.main-munu-template{
+*{
     margin: 0;
     padding: 0;
-    border: 2px solid rgb(202, 44, 4);
-    width: 1320px ;
-    height: 113px ;
-}
-
-.search-icon{
+    margin-block: auto;
 
 }
 
-.first-line{
+.header{
+    background-color:rgb(30,40,50,0.05) ;
+    width: 2000px;
+
+    
+    
+    
+}
+
+.header .first-line{    
     display: flex;
-    justify-content: center;
-    border: 1px solid rgb(3, 50, 138) ;
-
+    justify-content: space-around;
+    gap: 300px;
+    width: 1320px;
+    height:59px;
+    border: 1px solid #E3E3E3;
+    border-left: none;
+    border-top: none;
+    border-right: none;
 }
 
-.Title{
-    display: inline;
+.header .marka-design{
+    width: 190px;
+    height: 34px;    
+}
+
+.header .Title{
+    font-family: "Lora", serif;
+    font-weight: 200;  
+    padding-left: 5px;  
+    padding-right: 5px;
+    display: inline 
     
-
-}
-
-.right-box{
-    margin-block-start: 25px;
-
-}
-
-.right-1{
-
-}
-
-.right-2{
     
 }
 
-.right-text{
-    display: inline;
+.header .right-box{
+    width: 221px;
     height: 25px;
-    
-    
-}
-
-.menu-buttons{
-
     display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.header .right-1{
+    display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 30px;
-    border: none;
-    outline: none;
+  
+
+}
+
+.header .right-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header .right-text{
+    display: inline;
+    font-family: "Roboto", sans-serif;
+    padding-left: 5px;
+   
+
+}
+
+
+
+
+.header .second-line-menu{
+    width: 1320px;
+    height: 24px;
+    padding-top: 30px;
+    
+    
     
 }
 
-.menu-button{
-    
-    border: none;
-    outline: none;
-    cursor: pointer;
-    
-    
-    
+.header .menu-sections{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
+.header .menu-section{
+ list-style: none;
+ font-family: "Open Sans", sans-serif;
+
+
+}
+
+.header .menu-section:hover{
+    cursor: pointer;
+}
+
+
