@@ -22,8 +22,7 @@ body{
     justify-content: space-between;
     width: 699px;
     height: 364px;
-    top: 299px;
-    left: 301px;
+    padding-top: 70px;
 }
 .content-title{
     font-family: "Roboto",sans-serif;
