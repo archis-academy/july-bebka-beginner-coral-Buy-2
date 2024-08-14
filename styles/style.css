@@ -1,105 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-    margin-block: auto;
-
+/*Main Header Template Start*/
+* {
+  margin: 0;
+  padding: 0;
+  margin: auto;
 }
 
-.header{
-    background-color:rgb(30,40,50,0.05) ;
-    width: 2000px;
-
-    
-    
-    
+.header-section-1 {
+  background-color: rgb(30, 40, 50, 0.05);
+  width: 100%;
+  margin: auto;
 }
 
-.header .first-line{    
-    display: flex;
-    justify-content: space-around;
-    gap: 300px;
-    width: 1320px;
-    height:59px;
-    border: 1px solid #E3E3E3;
-    border-left: none;
-    border-top: none;
-    border-right: none;
+.first-line {
+  display: flex;
+  justify-content: space-around;
+  gap: 300px;
+  width: 1320px;
+  height: 59px;
+  border: 1px solid #e3e3e3;
+  border-left: none;
+  border-top: none;
+  border-right: none;
 }
 
-.header .marka-design{
-    width: 190px;
-    height: 34px;    
+.marka-design {
+  width: 190px;
+  height: 34px;
 }
 
-.header .Title{
-    font-family: "Lora", serif;
-    font-weight: 200;  
-    padding-left: 5px;  
-    padding-right: 5px;
-    display: inline 
-    
-    
+.Title {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 28px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline;
 }
 
-.header .right-box{
-    width: 221px;
-    height: 25px;
-    display: flex;
-    justify-content: space-around;
-    
-
+.right-box {
+  width: 221px;
+  height: 25px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.header .right-1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-
+.right-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.header .right-2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+.right-1:hover{
+  cursor: pointer;
+  color: #f55253;
+  transition: all 0.3s;
 }
 
-.header .right-text{
-    display: inline;
-    font-family: "Roboto", sans-serif;
-    padding-left: 5px;
-   
-
+.right-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
-
-
-.header .second-line-menu{
-    width: 1320px;
-    height: 24px;
-    padding-top: 30px;
-    
-    
-    
+.right-2:hover{
+  cursor: pointer;
+  color: #f55253;
+  transition: all 0.3s;
 }
 
-.header .menu-sections{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.right-text {
+  display: inline;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #1e2832;
+  padding-left: 5px;
 }
-
-.header .menu-section{
- list-style: none;
- font-family: "Open Sans", sans-serif;
-
-
-}
-
-.header .menu-section:hover{
-    cursor: pointer;
-}
-
-
+/*Main Header Template End*/
