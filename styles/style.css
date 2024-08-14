@@ -1,35 +1,140 @@
-
-.top-image{
-    
-        width: 312px;
-        height: 400px;
-        display: block;
-        margin: 10px 15px 20px 10px;
-        border: 3px solid green;  
+body {
+    font-family: 'Open Sans', sans-serif;
 }
-.image-product{
-    
-        width: 312px;
-        height: 400px;
-        display: block;
-        margin: 100px auto;
-    
 
+.ProductCard-Template {
+    display: flex;
+    flex-direction: column; 
+    gap: 35px; 
+    margin-bottom: 5%; 
+    margin-inline: auto; 
+    width: 1320px; 
+    height: 980px; 
 }
-h1{
-width: 139px;
-height: 22px;
-top: 418px;
-left: 10px;
 
-
-
+.card-top, .card-alt {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 10px; 
 }
-h2{
-    width: 225px;
-    height: 22px;
-    top: 418px;
-    left: 10px;
 
+.card {
+    width: 312px;
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    padding: 10px;
+    overflow: hidden; 
+    position: relative;
+}
 
-    }
+.top-product {
+    width: 312px;
+    height: 400px;
+}
+
+.bottom-product {
+    display: flex; 
+    flex-direction: column; 
+    gap: 5px; 
+    width: 100%; 
+}
+
+.title-product {
+    display: flex; 
+    flex-direction: column; 
+    gap: 5px; 
+    font-size: 14px;
+}
+
+.title-product-info {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.title-product-category {
+    font-family: Open Sans;
+    line-height: 21.79px;
+    font-size: 16px; 
+    color: gray;
+    font-weight: 400; 
+    text-align: left; 
+    flex: 1; 
+}
+
+.title-product-price {
+    font-size: 16px; 
+    font-weight: 600; 
+    text-align: right; 
+    margin: 0;
+    flex: 0; 
+}
+
+.top-product-img {
+    width: 100%; 
+    height: auto; 
+}
+
+.discount-price {
+    font-size: 16px; 
+    margin-left: 10px; 
+}
+
+.discount-price.text-red {
+    color: #ff6666; 
+    font-weight: bold; 
+}
+
+.discount-price.text-black-opc {
+    color: #808080; 
+    text-decoration: line-through; 
+    font-weight: bold; 
+}
+
+.card-overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    opacity: 0;
+    transition: opacity 0.3s; 
+}
+
+.card:hover .card-overlay {
+    opacity: 1; 
+}
+
+.card-button {
+    background: transparent; 
+    border: none; 
+    color: white; 
+    font-size: 24px;
+    margin: 10px; 
+    cursor: pointer; 
+}
+
+.heart-button {    
+    font-size: 30px; 
+}
+
+.search-button {    
+    font-size: 30px; 
+}
+
+.shop-now-button {
+    background-color: black; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    color: white; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
