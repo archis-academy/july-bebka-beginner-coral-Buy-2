@@ -53,12 +53,14 @@
     width: 93px;
     height: 32px;
     cursor: pointer;
-    border: none;
-    
+    border: none;   
 }
 .products-card-category{
     display: flex;
     justify-content: space-between;
+}
+.image-section{
+    position: relative;
 }
 .card-body{
     margin-top: 10px;
@@ -89,7 +91,7 @@
 .fs-16{ 
     font-size: 16px;
 }
-.card-1{
+.opc{
     opacity:20%;
 }
 .text-red {
@@ -101,7 +103,49 @@
 .text-black {
     color: #000!important;
 }
-
+.border{
+    display: flex;
+    width: 310px;
+    height: 60px;
+    opacity: 0;
+    transition: .5s ease;
+    bottom: 95px;
+    justify-content: space-between;
+    position: absolute;
+}
+.image-section:hover .border{
+    opacity: 1;
+}
+button{
+    border-style:none;
+    color: white;
+    margin-right: 0;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+button:hover{
+    color:#FF6F61;
+}
+.bg-blue{
+    background-color: #1E2832;
+}
+.ic-features{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.ic-features .ic-shop:hover{
+    color:#FF6F61;
+}
+.ic-margin{
+    margin-right: 10px;
+}
+.left-icon{
+    display: flex;
+    width: 70px;
+    margin: 15px;
+    justify-content: space-between;
+}
 /* ====== Best Sellers Carousel End ==== */
 
 /* Cta-Section Start */
