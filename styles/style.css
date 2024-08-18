@@ -4,7 +4,11 @@
 * {
   margin: 0;
   padding: 0;
-  margin: auto;
+
+  /*
+    sayfanın tamamına margin auto verilmez. Bu butun css leri bozar.
+  */
+  /* margin: auto; */
 }
 
 .header-section-2{
@@ -83,6 +87,7 @@
 }
 .btn-syle:hover{
     background-color: #FF6F61;
+    color: white;
 }
 .btn-syle{
     font-family: "Open Sans";
@@ -156,14 +161,16 @@
 .image-section:hover .border{
     opacity: 1;
 }
-button{
+.button{
     border-style:none;
     color: white;
-    margin-right: 0;
     font-size: 20px;
     font-family: "Roboto";
 }
-button:hover{
+.mr-15{
+    margin-right: 15px!important;
+}
+.button:hover{
     color:#FF6F61;
 }
 .bg-blue{
