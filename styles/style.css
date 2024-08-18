@@ -1,92 +1,61 @@
-/*Main Header Template Start*/
-* {
-  margin: 0;
-  padding: 0;
-  margin: auto;
-}
+/*Brand-Logos Start*/
 
-.header-section-1 {
-  background-color: rgb(30, 40, 50, 0.05);
-  width: 100%;
-  margin: auto;
-}
-
-.first-line {
-  display: flex;
-  justify-content: space-around;
-  gap: 300px;
-  width: 1320px;
-  height: 59px;
-  border: 1px solid #e3e3e3;
-  border-left: none;
-  border-top: none;
-  border-right: none;
-}
-
-.marka-design {
-  width: 190px;
-  height: 34px;
-}
-
-.Title {
-  font-family: "Lora", serif;
-  font-weight: 400;
-  font-size: 28px;
-  padding-left: 5px;
-  padding-right: 5px;
-  display: inline;
-}
-
-.right-box {
-  width: 221px;
-  height: 25px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.right-1 {
-  display: flex;
+.Brand-Logos {
+  width: 250px;
+  height: 70px;
+  margin: auto;  
   align-items: center;
-  justify-content: center;
-  background-color: none;
-  border: none;
+  position: relative;
+  
 }
 
-.right-1:hover {
-  cursor: pointer;
-  color: #f55253;
-  transition: all 0.3s;
+.Brand-Logos-content{
+  position: absolute;
+  width: 500%;
+  left: 0;
+
+  animation: Brand-Logos 10s infinite;
+
 }
 
-.right-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: none;
-  border: none;
-}
 
-.right-2:hover{
-  cursor: pointer;
-  color: #f55253;
-  transition: all 0.3s;
+.Brand-Logos-İtem{
+  width: 20%;
+  float: left;
 }
-
-.right-text-1 {
-  display: inline;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  color: #1e2832;
-  padding-left: 5px;
+@keyframes Brand-Logos{
+0%{
+  transform: translateX(0px);
 }
-
-.right-text-2 {
-  display: inline;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  color: #1e2832;
-  padding-left: 5px;
+10%{
+  transform: translateX(-250px);
 }
-/*Main Header Template End*/
+20%{
+  transform: translateX(-250px);
+}
+30%{
+  transform: translateX(-500px);
+}
+40%{
+  transform: translateX(-500px);
+}
+50%{
+  transform: translateX(-750px);
+}
+60%{
+  transform: translateX(-750px);
+}
+70%{
+  transform: translateX(-1000px);
+}
+80%{
+  transform: translateX(-1000px);
+}
+90%{
+  transform: translateX(-1250px);
+}
+100%{
+  transform: translateX(-1250px);
+}
+}
+/*Brand-Logos End*/
