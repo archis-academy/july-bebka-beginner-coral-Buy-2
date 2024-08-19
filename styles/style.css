@@ -55,16 +55,17 @@ button:hover{
     border: none;
 }
 .right-frame{
-    width: 195px;
-    height: 262px;
-    top: 365.8px;
-    left: 1874.44px;
-    padding: 0.06px 0.02px 0.03px 0.23px;
-    gap: 0px;
-    opacity: 0px;
-    display: flex;
-    justify-content: space-between;
-
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+.left-frame{
+    position: absolute;
+    left: 0;
+    bottom: 350px;
+}
+.img-top{
+    padding-top: 70px;
 }
 .img-padding{
     padding-right: 3px;
