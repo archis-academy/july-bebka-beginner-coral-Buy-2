@@ -50,9 +50,10 @@ body{
     font-size: 29px;
     font-weight: 400;
 }
-button:hover{
+.btn-content:hover{
     background-color: #FF6F61;
     border: none;
+    color: white;
 }
 .right-frame{
     position: absolute;
