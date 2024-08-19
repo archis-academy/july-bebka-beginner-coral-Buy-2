@@ -56,7 +56,7 @@ body {
 }
 
 .title-product-category {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     line-height: 21.79px;
     font-size: 16px; 
     color: gray;
@@ -93,48 +93,53 @@ body {
     text-decoration: line-through; 
     font-weight: bold; 
 }
-
-.card-overlay {
-    position: absolute; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); 
+.border {
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
+    width: 310px;
+    height: 60px;
     opacity: 0;
-    transition: opacity 0.3s; 
+    transition: opacity 0.5s ease;
+    bottom: 95px;
+    justify-content: space-between;
+    position: absolute;
 }
-
-.card:hover .card-overlay {
-    opacity: 1; 
+.top-product:hover .border {
+    opacity: 1;
 }
-
-.card-button {
-    background: transparent; 
-    border: none; 
-    color: white; 
-    font-size: 24px;
-    margin: 10px; 
-    cursor: pointer; 
+.button {
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto";
+    background-color: #1E2832;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
 }
-
-.heart-button {    
-    font-size: 30px; 
+.button:hover {
+    color: #FF6F61;
 }
-
-.search-button {    
-    font-size: 30px; 
+.mr-15 {
+    margin-right: 15px !important;
 }
-
-.shop-now-button {
-    background-color: black; 
-    border-radius: 5px; 
-    padding: 10px 20px; 
-    color: white; 
-    font-size: 16px; 
-    cursor: pointer; 
+.bg-blue {
+    background-color: #1E2832;
+}
+.ic-features, .ic-shop {
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    transition: color 0.3s ease;
+}
+.ic-features:hover, .ic-shop:hover {
+    color: #FF6F61;
+}
+.ic-margin {
+    margin-right: 10px;
+}
+.left-icon {
+    display: flex;
+    width: 70px;
+    margin: 15px;
+    justify-content: space-between;
 }
