@@ -10,7 +10,11 @@ body{
 * {
   margin: 0;
   padding: 0;
-  margin: auto;
+
+  /*
+    sayfanın tamamına margin auto verilmez. Bu butun css leri bozar.
+  */
+  /* margin: auto; */
 }
 
 .header-section-2{
@@ -159,6 +163,7 @@ body{
 }
 .btn-syle:hover{
     background-color: #FF6F61;
+    color: white;
 }
 .btn-syle{
     font-family: "Open Sans";
@@ -232,14 +237,16 @@ body{
 .image-section:hover .border{
     opacity: 1;
 }
-button{
+.button{
     border-style:none;
     color: white;
-    margin-right: 0;
     font-size: 20px;
     font-family: "Roboto";
 }
-button:hover{
+.mr-15{
+    margin-right: 15px!important;
+}
+.button:hover{
     color:#FF6F61;
 }
 .bg-blue{
@@ -263,15 +270,16 @@ button:hover{
     justify-content: space-between;
 }
 /* ====== Best Sellers Carousel End ==== */
-
 /* Newsletter Instagram Start */
 .newsletter-section {
   display: grid;
   place-items: center;
   background-color: #1e28320d;
+  font-family: "Roboto" ,sans-serif;
   height: auto;
   margin-left: 3%;
   margin-right: 3%;
+  padding-bottom: 3%;
 }
 .newsletter-section .instagram-container {
   padding: 10px;
@@ -282,10 +290,10 @@ button:hover{
   text-align: center;
 }
 .newsletter-section .instagram-title .title {
-  font-size: 40px;
+  font-size: 50px;
   line-height: 58px;
-  font-family: "Roboto", sans-serif;
-  font-weight: bolder;
+  font-weight: 500;
+  padding-bottom: 30px;
 }
 .newsletter-section .instagram-container .instagram-album {
   gap: 24px;
@@ -298,3 +306,47 @@ button:hover{
 }
 /* Newsletter Instagram End */
 
+/* ==== Newsletter Form Template Start ==== */
+.title-form  {
+font-size: 50px;
+font-weight: bolder;
+line-height: 58.59px;
+text-align: center;
+text-shadow: 0px 4px 2px #00000040;
+}
+.form-email{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.email{
+    width: 85%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 600;
+    color: #1E283280;
+}
+.email::placeholder{
+    color: #1E283280;
+}
+.email:focus{
+    outline: none;
+}
+.btn-submit{
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #1E2832;
+    padding: 5px;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+.btn-submit:hover{
+    color: #FF6F61;
+    border-color: #FF6F61;
+    cursor: pointer;
+}
+/* ==== Newsletter Form Template End ==== */
