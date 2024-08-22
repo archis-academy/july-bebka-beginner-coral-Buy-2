@@ -11,7 +11,7 @@
 
 .Brand-Logos-content{
   position: absolute;
-  width: 500%;
+  width: 1000%;
   left: 0;
 
   animation: Brand-Logos 10s infinite;
@@ -20,7 +20,7 @@
 
 
 .Brand-Logos-İtem{
-  width: 20%;
+  width: 10%;
   float: left;
 }
 @keyframes Brand-Logos{
