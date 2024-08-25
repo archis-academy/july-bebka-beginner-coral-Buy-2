@@ -6,17 +6,6 @@ body{
 }
 
 /*Header Category Menu Template Start*/
-
-* {
-  margin: 0;
-  padding: 0;
-
-  /*
-    sayfanın tamamına margin auto verilmez. Bu butun css leri bozar.
-  */
-  /* margin: auto; */
-}
-
 .header-section-2{
   background-color: rgb(30, 40, 50, 0.05);
   width: 100%;
@@ -45,6 +34,7 @@ body{
 .menu-section:hover {
   cursor: pointer;
   color: #f55253;
+  font-weight: 500;
 }
 /*Header Category Menu Template End*/
 
