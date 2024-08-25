@@ -1,5 +1,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .ProductCard-Template {
@@ -124,6 +127,7 @@ body {
 }
 .bg-blue {
     background-color: #1E2832;
+    margin-bottom: 43px;
 }
 .ic-features, .ic-shop {
     color: white;
