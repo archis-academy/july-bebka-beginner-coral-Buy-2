@@ -157,6 +157,7 @@ body{
     margin-bottom: 5%; 
     margin-inline: auto; 
     width: 1320px; 
+    margin-top: 50px;
 
 }
 
@@ -193,7 +194,7 @@ body{
     display: flex; 
     flex-direction: column; 
     gap: 5px; 
-    font-size: 14px;
+    font-size: 13.5px;
 }
 
 .title-product-info {
@@ -306,6 +307,9 @@ body{
   .ProductCard-Template .top-section-products{
       display: flex;
       justify-content: space-between;
+  }
+  .ff-opensans{
+    font-family: "Open Sans", sans-serif;
   }
   .ProductCard-Template ul{
       font-size: 16px;
