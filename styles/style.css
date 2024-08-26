@@ -260,41 +260,84 @@ body{
     justify-content: space-between;
 }
 /* ====== Best Sellers Carousel End ==== */
-/* Newsletter Instagram Start */
+
+/* ==== Newsletter Instagram Start ====*/
 .newsletter-section {
-  display: grid;
-  place-items: center;
-  background-color: #1e28320d;
-  font-family: "Roboto" ,sans-serif;
-  height: auto;
-  margin-left: 3%;
-  margin-right: 3%;
-  padding-bottom: 3%;
+    background-color: #1e28320d;
+    font-family: "Roboto" ,sans-serif;
+    padding-bottom: 50px;
 }
-.newsletter-section .instagram-container {
-  padding: 10px;
+/* .instagram-album {
+    display: grid;
+    grid-template-columns: repeat(6, fit-content(200px)); 
+    gap: 20px;
+    place-content: center;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.newsletter-section .instagram-container .instagram-album {
+    gap: 24px;
+    display: flex;
+    margin-top: 1.7rem;
+    place-content: center;
 }
 .newsletter-section .instagram-container .instagram-title {
-  padding: 0;
-  margin-top: 50px;
-  text-align: center;
+    padding: 0;
+    margin-top: 50px;
+    text-align: center;
+}
+.single-photo {
+    width: 200px;
+    height: 200px;
+}
+.m-50 {
+    margin: 50px;
+}
+.img-insta {
+    width:200px;
+    height: 200px;
+    object-fit: cover; 
+}
+
+/* .instagram-album {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    justify-content: center; 
+    margin: 0 auto;
+} */
+
+.single-photo {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .img-insta {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.newsletter-section .instagram-container {
+    padding: 10px;
 }
 .newsletter-section .instagram-title .title {
-  font-size: 50px;
-  line-height: 58px;
-  font-weight: 500;
-  padding-bottom: 30px;
+    font-size: 50px;
+    line-height: 58px;
+    font-weight: 500;
+    padding-bottom: 50px;
 }
-.newsletter-section .instagram-container .instagram-album {
-  gap: 24px;
-  display: flex;
-  margin-top: 1.7rem;
+
+.newsletter-section .instagram-container .instagram-title {
+    padding: 0;
+    margin-top: 50px;
+    text-align: center;
 }
-.newsletter-section .instagram-album .single-photo {
-  width: 200px;
-  height: 200px;
-}
-/* Newsletter Instagram End */
+
+
+/* ==== Newsletter Instagram End ====*/
 
 /* ==== Newsletter Form Template Start ==== */
 .title-form  {
@@ -306,11 +349,11 @@ text-shadow: 0px 4px 2px #00000040;
 }
 .form-email{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 50px;
 }
 .email{
-    width: 85%;
+    width: 35%;
     background-color: transparent;
     border: none;
     border-bottom: 2px solid black;
@@ -326,7 +369,7 @@ text-shadow: 0px 4px 2px #00000040;
     outline: none;
 }
 .btn-submit{
-    width: 10%;
+    width: 9%;
     background-color: transparent;
     border: none;
     border-bottom: 2px solid #1E2832;
@@ -339,4 +382,51 @@ text-shadow: 0px 4px 2px #00000040;
     border-color: #FF6F61;
     cursor: pointer;
 }
+.ml-15 {
+    margin-left: 15px;
+}
 /* ==== Newsletter Form Template End ==== */
+
+/* === Newsletter Instagram Responsiveness === */
+
+@media screen and (max-width: 1400px) {
+    .instagram-album {
+        /* display: grid;
+        grid-template-columns: repeat(3,1fr); */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 840px) {
+    .instagram-album {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    }
+}
+
+@media screen and (max-width: 740px){
+    .instagram-container .form-email {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-submit {
+        margin-top: 50px;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .instagram-album {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .instagram-album {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+}
