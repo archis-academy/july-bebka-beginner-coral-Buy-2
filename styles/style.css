@@ -12,7 +12,7 @@ body {
     margin-bottom: 5%; 
     margin-inline: auto; 
     width: 1320px; 
-    height: 980px; 
+
 }
 
 .card-top, .card-alt {
@@ -127,7 +127,7 @@ body {
 }
 .bg-blue {
     background-color: #1E2832;
-    margin-bottom: 43px;
+    margin-bottom: 40px;
 }
 .ic-features, .ic-shop {
     color: white;
@@ -147,3 +147,79 @@ body {
     margin: 15px;
     justify-content: space-between;
 }
+  /* ===== Top Section Product Start ====*/
+  .ProductCard-Template .section-title{
+      color:#000000;
+      font-family: Roboto;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 58.59px;
+      text-align: center;
+  }
+  .ProductCard-Template .top-section-products{
+      display: flex;
+      justify-content: space-between;
+  }
+  .ProductCard-Template ul{
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 21.79px;
+      text-align: left;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  .ProductCard-Template li{
+      display: inline-block;
+      margin-right: 25px;
+  }
+  .ProductCard-Template a{
+      text-decoration: none;
+      color:#00000080;
+  }
+  .ProductCard-Template a:hover{
+      color: #FF6F61;
+  }
+  .btn-syle:hover{
+      background-color: #FF6F61;
+      color: white;
+  }
+  .btn-syle{
+      font-family: "Open Sans";
+      font-size: 16px;
+      font-weight: 400;
+      color: white;
+      background-color: #1E2832;
+      width: 93px;
+      height: 32px;
+      cursor: pointer;
+      border: none;   
+  }
+  .products-card-category{
+      display: flex;
+      justify-content: space-between;
+  }
+  .image-section{
+      position: relative;
+  }
+  .card-body{
+      margin-top: 10px;
+      gap: 5px;
+      width: 292px;
+      height: 60px;
+      font-size: 16px;
+      color: #000000;
+      font-weight: 600;
+      padding-bottom: 20px;
+      margin-left: 10px;
+  }
+  .body-subtitle{
+      margin-top: 10px;
+      color: #00000080;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+
+  /*===== Top Section Product Finish  ====*/
+
