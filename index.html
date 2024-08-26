@@ -1,84 +1,276 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Coral Buy</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <!-- Font -> Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
+    <!-- Font -> Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
-
   <body>
-    <!--Main Header Template Start-->
-    <header class="header-section-1">
-      <div class="first-line">
-        <img
-          class="search-icon"
-          src="images/Header/search-icon.svg"
-          alt="arama butonu"
-        />
 
-        <div class="marka-design">
-          <img
-            class="near-title"
-            src="images/Header/Coral near.svg"
-            alt="icon"
-          />
-          <h1 class="Title">CORAL</h1>
-          <img
-            class="near-title"
-            src="images/Header/Coral near.svg"
-            alt="icon"
-          />
-        </div>
-
-        <div class="right-box">
-          <div>
-            <button class="right-1">
-              <svg
-                class="account-icon"
-                width="25"
-                height="25"
-                viewBox="0 0 25 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12.5 12.5C9.72656 12.5 7.5 10.2734 7.5 7.5C7.5 4.76562 9.72656 2.5 12.5 2.5C15.2344 2.5 17.5 4.76562 17.5 7.5C17.5 10.2734 15.2344 12.5 12.5 12.5ZM14.4531 14.375C18.2031 14.375 21.25 17.4219 21.25 21.1719C21.25 21.9141 20.625 22.5 19.8828 22.5H5.07812C4.33594 22.5 3.75 21.9141 3.75 21.1719C3.75 17.4219 6.75781 14.375 10.5078 14.375H14.4531Z"
-                  fill="#1E2832"
-                />
-              </svg>
-              Account
-            </button>
+        <!--Main Header Template Start-->
+        <header class="header-section-1">
+          <div class="first-line">
+            <img
+              class="search-icon"
+              src="images/Header/search-icon.svg"
+              alt="arama butonu"
+            />
+    
+            <div class="marka-design">
+              <img
+                class="near-title"
+                src="images/Header/Coral near.svg"
+                alt="icon"
+              />
+              <h1 class="Title">CORAL</h1>
+              <img
+                class="near-title"
+                src="images/Header/Coral near.svg"
+                alt="icon"
+              />
+            </div>
+    
+            <div class="right-box">
+              <div>
+                <button class="right-1">
+                  <svg
+                    class="account-icon"
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.5 12.5C9.72656 12.5 7.5 10.2734 7.5 7.5C7.5 4.76562 9.72656 2.5 12.5 2.5C15.2344 2.5 17.5 4.76562 17.5 7.5C17.5 10.2734 15.2344 12.5 12.5 12.5ZM14.4531 14.375C18.2031 14.375 21.25 17.4219 21.25 21.1719C21.25 21.9141 20.625 22.5 19.8828 22.5H5.07812C4.33594 22.5 3.75 21.9141 3.75 21.1719C3.75 17.4219 6.75781 14.375 10.5078 14.375H14.4531Z"
+                      fill="#1E2832"
+                    />
+                  </svg>
+                  Account
+                </button>
+              </div>
+    
+              <div>
+                <button class="right-2">
+                  <svg
+                    class="shopping-icon"
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8.125 6.875C8.125 4.49219 10.0781 2.5 12.5 2.5C14.8828 2.5 16.875 4.49219 16.875 6.875V8.75H19.375C20.3906 8.75 21.25 9.60938 21.25 10.625V18.75C21.25 20.8203 19.5703 22.5 17.5 22.5H7.5C5.39062 22.5 3.75 20.8203 3.75 18.75V10.625C3.75 9.60938 4.57031 8.75 5.625 8.75H8.125V6.875ZM10 8.75H15V6.875C15 5.50781 13.8672 4.375 12.5 4.375C11.0938 4.375 10 5.50781 10 6.875V8.75ZM9.0625 12.5C9.57031 12.5 10 12.1094 10 11.5625C10 11.0547 9.57031 10.625 9.0625 10.625C8.51562 10.625 8.125 11.0547 8.125 11.5625C8.125 12.1094 8.51562 12.5 9.0625 12.5ZM15.9375 10.625C15.3906 10.625 15 11.0547 15 11.5625C15 12.1094 15.3906 12.5 15.9375 12.5C16.4453 12.5 16.875 12.1094 16.875 11.5625C16.875 11.0547 16.4453 10.625 15.9375 10.625Z"
+                      fill="#1E2832"
+                    />
+                  </svg>
+                  Shoping
+                </button>
+              </div>
+            </div>
           </div>
+        </header>
+        <!--Main Header Template End-->
 
-          <div>
-            <button class="right-2">
-              <svg
-                class="shopping-icon"
-                width="25"
-                height="25"
-                viewBox="0 0 25 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M8.125 6.875C8.125 4.49219 10.0781 2.5 12.5 2.5C14.8828 2.5 16.875 4.49219 16.875 6.875V8.75H19.375C20.3906 8.75 21.25 9.60938 21.25 10.625V18.75C21.25 20.8203 19.5703 22.5 17.5 22.5H7.5C5.39062 22.5 3.75 20.8203 3.75 18.75V10.625C3.75 9.60938 4.57031 8.75 5.625 8.75H8.125V6.875ZM10 8.75H15V6.875C15 5.50781 13.8672 4.375 12.5 4.375C11.0938 4.375 10 5.50781 10 6.875V8.75ZM9.0625 12.5C9.57031 12.5 10 12.1094 10 11.5625C10 11.0547 9.57031 10.625 9.0625 10.625C8.51562 10.625 8.125 11.0547 8.125 11.5625C8.125 12.1094 8.51562 12.5 9.0625 12.5ZM15.9375 10.625C15.3906 10.625 15 11.0547 15 11.5625C15 12.1094 15.3906 12.5 15.9375 12.5C16.4453 12.5 16.875 12.1094 16.875 11.5625C16.875 11.0547 16.4453 10.625 15.9375 10.625Z"
-                  fill="#1E2832"
-                />
-              </svg>
-              Shoping
-            </button>
-          </div>
-        </div>
+    <!--Header Category Menu Template Start-->
+    <header class="header-section-2">
+      <div class="second-line-menu">
+        <nav>
+          <ul class="menu-sections">
+            <li class="menu-section" href="#">Jewellery & Accessories</li>
+            <li class="menu-section" href="#">Clothing & Shoes</li>
+            <li class="menu-section" href="#">Home & Living</li>
+            <li class="menu-section" href="#">Wedding & Party</li>
+            <li class="menu-section" href="#">Toys & Entertainment</li>
+            <li class="menu-section" href="#">Art & Collectibles</li>
+            <li class="menu-section" href="#">Craft Supplies & Tools</li>
+          </ul>
+        </nav>
       </div>
     </header>
-    <!--Main Header Template End-->
+    <!--Header Category Menu Template End-->
+
+    <!--Kodlar Buraya Yazılacak-->
+    <!-- ======= Hero Section Start ======= -->
+    <div class="top-main-section">
+      <div class="left-frame">
+        <img src="images/hero-section/left_frame.svg" alt="#">
+      </div>
+      <div class="product-section">
+        <div class="collections-content">
+          <h1 class="content-title content-features">Collections</h1>
+          <p class="content-text content-features">You Can Explore And Shop Many Different Collection <br>
+            From Various Brands Here.</p>
+          <button class="btn-content btn-content:hover">
+            <img src="images/hero-section/ic_shop.svg" alt="#" class="img-padding">Shop Now
+          </button>
+        </div>
+        <div class="product-image">
+          <img src="images/hero-section/image_product.svg" alt="#">
+        </div>
+        <div class="right-frame">
+          <img src="images/hero-section/right_frame.svg" class="img-top" alt="#">
+        </div>
+      </div>
+    </div>
+    <!-- ===== Hero Section End === -->
+    <!-- ======Best Sellers Carousel====== -->
+    <section class="best-sellers-section">
+      <div class="section-title">
+        <span>Best Sellers</span >
+      </div>
+      <div class="top-section-products" >
+        <div>
+          <nav class="nav-category-style">
+            <ul>
+              <li><a href="#">All Products</a></li>
+              <li><a href="#">T-Shirt</a></li>
+              <li><a href="#">Hoodies</a></li>
+              <li><a href="#">Jacket</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <button class="btn-syle btn-syle:hover" >Show All</button>
+        </div>
+      </div>
+      <div class="products-card-category">
+        <div class="image-section opc">
+          <img src="images/best-sellers-carousel/card_image1.png" alt="#">
+          <div class="border bg-blue">
+            <div class="left-icon">
+              <i class="fa-regular fa-heart ic-features"></i>
+              <i class="fa-solid fa-magnifying-glass ic-features"></i>
+            </div>
+            <button class="bg-blue button mr-15 button:hover">
+              <i class="fa-solid fa-bag-shopping ic-shop:hover ic-margin"></i>Shop Now
+            </button>
+          </div>
+          <div class="card-body">
+            <span>Basic Dress Green</span>
+            <div class="body-subtitle">
+              <span>Dress</span>
+              <div class="price-sytle">
+                <span class="text-black">$236.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="image-section">
+          <img src="images/best-sellers-carousel/card_image2.png" alt="#">
+          <div class="border bg-blue">
+            <div class="left-icon">
+              <i class="fa-regular fa-heart ic-features"></i>
+              <i class="fa-solid fa-magnifying-glass ic-features"></i>
+            </div>
+            <button class="bg-blue button mr-15 button:hover">
+              <i class="fa-solid fa-bag-shopping ic-shop:hover ic-margin"></i>Shop Now
+            </button>
+          </div>
+          <div class="card-body">
+            <span>Nike Sportswear Futura Luxe</span>
+            <div class="body-subtitle">
+              <span>Bag</span>
+              <div class="price-sytle">
+                <span class="text-black">$130.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="image-section">
+          <img src="images/best-sellers-carousel/card_image3.png" alt="#">
+          <div class="border bg-blue">
+            <div class="left-icon">
+              <i class="fa-regular fa-heart ic-features"></i>
+              <i class="fa-solid fa-magnifying-glass ic-features"></i>
+            </div>
+            <button class="bg-blue button mr-15 button:hover">
+              <i class="fa-solid fa-bag-shopping ic-shop:hover ic-margin"></i>Shop Now
+            </button>
+          </div>
+          <div class="card-body">
+            <span>Yellow Reserved Hoodie</span>
+            <div class="body-subtitle">
+              <span>Dress</span>
+              <div class="price-sytle">
+                <span class="discount-price text-black-opc text-line-through">$364.00</span>
+                <span class="discount-price text-red fs-16">$155.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="image-section">
+          <div class="border bg-blue">
+            <div class="left-icon">
+              <i class="fa-regular fa-heart ic-features"></i>
+              <i class="fa-solid fa-magnifying-glass ic-features"></i>
+            </div>
+            <button class="bg-blue button mr-15 button:hover">
+              <i class="fa-solid fa-bag-shopping ic-shop:hover ic-margin"></i>Shop Now
+            </button>
+          </div>
+          <img src="images/best-sellers-carousel/card_image4.png" alt="#">
+          <div class="card-body">
+            <span>Nike Air Pegasus</span>
+            <div class="body-subtitle">
+              <span>Shoe</span>
+              <div class="price-sytle">
+                <span class="discount-price text-black-opc text-line-through ">$220.00</span>
+                <span class="discount-price text-red fs-16">$198.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <!-- ======= Best Sellers Carousel End ===== -->
+    <!-- Newsletter Instagram Start -->
+    <section class="newsletter-section">
+      <div class="instagram-container">
+        <div class="instagram-title">
+          <h3 class="title">Follow Products And Discounts On Instagram</h3>
+        </div>
+        <div class="instagram-album">
+            <div class="single-photo">
+              <img src="images/cta-section/image1.png" alt="image1" />
+            </div>
+            <div class="single-photo">
+              <img src="images/cta-section/image2.png" alt="image2" />
+            </div>
+            <div class="single-photo">
+              <img src="images/cta-section/image3.png" alt="image3" />
+            </div>
+            <div class="single-photo">
+              <img src="images/cta-section/image4.png" alt="image4" />
+            </div>
+            <div class="single-photo">
+              <img src="images/cta-section/image5.png" alt="image5" />
+            </div>
+            <div class="single-photo">
+              <img src="images/cta-section/image6.png" alt="image6" />
+            </div>
+        </div>
+      </div>
+      <div class="instagram-container">
+        <div class="instagram-title">
+          <h3 class=""><b class="title-form">Or Subscribe To The Newsletter</b></h3>
+        </div>
+        <div class="form-email">
+          <input type="email" class="email fs-16" placeholder="E Mail Address..." >
+          <button class="btn-submit btn-submit:hover fs-16">SUBMIT</button>
+        </div>
+      </div>
+    </section>
+    <!-- Newsletter Instagram End -->
   </body>
 </html>
