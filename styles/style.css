@@ -4,7 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-
+  /* ===== ProductCard Template  Start ====*/
 .ProductCard-Template {
     display: flex;
     flex-direction: column; 
@@ -147,6 +147,8 @@ body {
     margin: 15px;
     justify-content: space-between;
 }
+/* ===== ProductCard Template  Finish ====*/
+
   /* ===== Top Section Product Start ====*/
   .ProductCard-Template .section-title{
       color:#000000;
