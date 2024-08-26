@@ -1,3 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header Category Menu Template Start*/
+.header-section-2{
+  background-color: rgb(30, 40, 50, 0.05);
+  width: 100%;
+  margin: auto;
+}
+
+.second-line-menu {
+  width: 1320px;
+  height: 24px;
+  padding-top: 30px;
+}
+
+.menu-sections {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-section {
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menu-section:hover {
+  cursor: pointer;
+  color: #f55253;
+  font-weight: 500;
+}
+/*Header Category Menu Template End*/
+
+/* ====== Hero Section Start ====== */
+.top-main-section{
+    padding-left: 301px;
+    padding-bottom: 50px;
+    background-color: #1E28320D;
+}
+.product-section{
+    width: 1226px;
+    height: 562px;
+    display: flex;
+    justify-content: space-between;
+}
+.collections-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 699px;
+    height: 364px;
+    padding-top: 70px;
+}
+.content-title{
+    font-family: "Roboto",sans-serif;
+    font-size: 74px;
+    font-weight: 300;
+}
+.content-text{
+    font-size: 30px;
+    font-weight: 400;
+}
+.content-features{
+    font-family: "Roboto",sans-serif;
+    line-height: 55px;
+    text-align: left;
+}
+.btn-content{
+    width: 223px;
+    height: 72px;
+    margin-top: 15px;
+    margin-left: 7px;
+    padding: 19px 26px 19px 26px;
+    gap: 8px;
+    background-color: #1E2832;
+    color: white;
+    font-family: "Roboto";
+    font-size: 29px;
+    font-weight: 400;
+}
+.btn-content:hover{
+    background-color: #FF6F61;
+    border: none;
+    color: white;
+}
+.right-frame{
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+.left-frame{
+    position: absolute;
+    left: 0;
+    bottom: 350px;
+}
+.img-top{
+    padding-top: 70px;
+}
+.img-padding{
+    padding-right: 3px;
+}
+/* ====== Hero Section End ====== */
+
 /*Brand-Logos Start*/
 .Brand-Logos{
  
@@ -40,3 +149,236 @@
   }
 }
 /*Brand-Logos End*/
+
+/* ===== Best Sellers Carousel Start ====*/
+.best-sellers-section{
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    width: 1320px;
+    height: 639px;
+    gap: 35px;
+    font-family: "Open Sans";
+    margin-bottom: 5%;
+}
+.best-sellers-section .section-title{
+    color:#000000;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 58.59px;
+    text-align: center;
+}
+.top-section-products{
+    display: flex;
+    justify-content: space-between;
+}
+.best-sellers-section ul{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.best-sellers-section li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.best-sellers-section a{
+    text-decoration: none;
+    color:#00000080;
+}
+.best-sellers-section a:hover{
+    color: #FF6F61;
+}
+.btn-syle:hover{
+    background-color: #FF6F61;
+    color: white;
+}
+.btn-syle{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: #1E2832;
+    width: 93px;
+    height: 32px;
+    cursor: pointer;
+    border: none;   
+}
+.products-card-category{
+    display: flex;
+    justify-content: space-between;
+}
+.image-section{
+    position: relative;
+}
+.card-body{
+    margin-top: 10px;
+    gap: 5px;
+    width: 292px;
+    height: 60px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+.body-subtitle{
+    margin-top: 10px;
+    color: #00000080;
+    display: flex;
+    justify-content: space-between;
+}
+.discount-price{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: auto;
+    margin-left: 12px;
+}
+.text-line-through {
+    text-decoration: line-through;
+}
+.fs-16{ 
+    font-size: 16px;
+}
+.opc{
+    opacity:20%;
+}
+.text-red {
+    color: #FF6F61!important;
+}
+.text-black-opc {
+    color: #00000080!important;
+}
+.text-black {
+    color: #000!important;
+}
+.border{
+    display: flex;
+    width: 310px;
+    height: 60px;
+    opacity: 0;
+    transition: .5s ease;
+    bottom: 95px;
+    justify-content: space-between;
+    position: absolute;
+}
+.image-section:hover .border{
+    opacity: 1;
+}
+.button{
+    border-style:none;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+.mr-15{
+    margin-right: 15px!important;
+}
+.button:hover{
+    color:#FF6F61;
+}
+.bg-blue{
+    background-color: #1E2832;
+}
+.ic-features{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.ic-features .ic-shop:hover{
+    color:#FF6F61;
+}
+.ic-margin{
+    margin-right: 10px;
+}
+.left-icon{
+    display: flex;
+    width: 70px;
+    margin: 15px;
+    justify-content: space-between;
+}
+/* ====== Best Sellers Carousel End ==== */
+/* Newsletter Instagram Start */
+.newsletter-section {
+  display: grid;
+  place-items: center;
+  background-color: #1e28320d;
+  font-family: "Roboto" ,sans-serif;
+  height: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-bottom: 3%;
+}
+.newsletter-section .instagram-container {
+  padding: 10px;
+}
+.newsletter-section .instagram-container .instagram-title {
+  padding: 0;
+  margin-top: 50px;
+  text-align: center;
+}
+.newsletter-section .instagram-title .title {
+  font-size: 50px;
+  line-height: 58px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.newsletter-section .instagram-container .instagram-album {
+  gap: 24px;
+  display: flex;
+  margin-top: 1.7rem;
+}
+.newsletter-section .instagram-album .single-photo {
+  width: 200px;
+  height: 200px;
+}
+/* Newsletter Instagram End */
+
+/* ==== Newsletter Form Template Start ==== */
+.title-form  {
+font-size: 50px;
+font-weight: bolder;
+line-height: 58.59px;
+text-align: center;
+text-shadow: 0px 4px 2px #00000040;
+}
+.form-email{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.email{
+    width: 85%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 600;
+    color: #1E283280;
+}
+.email::placeholder{
+    color: #1E283280;
+}
+.email:focus{
+    outline: none;
+}
+.btn-submit{
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #1E2832;
+    padding: 5px;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+.btn-submit:hover{
+    color: #FF6F61;
+    border-color: #FF6F61;
+    cursor: pointer;
+}
+/* ==== Newsletter Form Template End ==== */
