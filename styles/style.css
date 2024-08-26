@@ -171,6 +171,10 @@ body {
       margin: 0;
       padding: 0;
   }
+  .nav-category-style ul li:first-child a {
+    color: #000000;
+  }
+  
   .ProductCard-Template li{
       display: inline-block;
       margin-right: 25px;
@@ -221,7 +225,40 @@ body {
       display: flex;
       justify-content: space-between;
   }
+  .btn-syle {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: #1E2832;
+    height: 32px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0 12px; /* Butonun içindeki boşluk */
+  }
   
-
+  .btn-syle img.icon {
+    max-width: 20px;
+    height: auto;
+    margin-right: 8px; /* İkon ile "Filter" yazısı arasındaki boşluk */
+    display: inline-block; /* İkonun buton içinde düzgün hizalanmasını sağlar */
+  }
+  
+  .btn-syle:hover {
+    background-color: #FF6F61;
+    color: white;
+  }
+  
+  .button-filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  
   /*===== Top Section Product Finish  ====*/
 
