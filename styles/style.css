@@ -8,18 +8,22 @@ body {
 .header-section-1 {
   background-color: rgb(30, 40, 50, 0.05);
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .first-line {
   display: flex;
   justify-content: space-around;
   gap: 300px;
-  width: 100%;
+  width: 1320px;
   height: 59px;
   border: 1px solid #e3e3e3;
   border-left: none;
   border-top: none;
   border-right: none;
+  margin-top: 20px;
 }
 
 .search-icon {
