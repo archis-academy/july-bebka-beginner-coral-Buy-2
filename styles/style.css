@@ -6,9 +6,12 @@ body{
 
 /*Header Category Menu Template Start*/
 .header-section-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(30, 40, 50, 0.05);
   width: 100%;
-  margin: auto;
+  padding-bottom: 70px; 
 }
 
 .second-line-menu {
