@@ -296,22 +296,22 @@ body{
 /* ===== ProductCard Template  Finish ====*/
 
   /* ===== Top Section Product Start ====*/
-  .ProductCard-Template .section-title{
+.ProductCard-Template .section-title{
       color:#000000;
       font-family: Roboto;
       font-size: 50px;
       font-weight: 700;
       line-height: 58.59px;
       text-align: center;
-  }
-  .ProductCard-Template .top-section-products{
+}
+.ProductCard-Template .top-section-products{
       display: flex;
       justify-content: space-between;
-  }
-  .ff-opensans{
+}
+.ff-opensans{
     font-family: "Open Sans", sans-serif;
-  }
-  .ProductCard-Template ul{
+}
+.ProductCard-Template ul{
       font-size: 16px;
       font-weight: 600;
       line-height: 21.79px;
@@ -319,27 +319,27 @@ body{
       list-style-type: none;
       margin: 0;
       padding: 0;
-  }
-  .nav-category-style ul li:first-child a {
+}
+.nav-category-style ul li:first-child a {
     color: #000000;
-  }
+}
   
-  .ProductCard-Template li{
+.ProductCard-Template li{
       display: inline-block;
       margin-right: 25px;
-  }
-  .ProductCard-Template a{
+}
+.ProductCard-Template a{
       text-decoration: none;
       color:#00000080;
-  }
-  .ProductCard-Template a:hover{
+}
+.ProductCard-Template a:hover{
       color: #FF6F61;
-  }
-  .btn-syle:hover{
+}
+.btn-syle:hover{
       background-color: #FF6F61;
       color: white;
-  }
-  .btn-syle{
+}
+.btn-syle{
       font-family: "Open Sans";
       font-size: 16px;
       font-weight: 400;
@@ -349,15 +349,15 @@ body{
       height: 32px;
       cursor: pointer;
       border: none;   
-  }
-  .products-card-category{
+}
+.products-card-category{
       display: flex;
       justify-content: space-between;
-  }
-  .image-section{
+}
+.image-section{
       position: relative;
-  }
-  .card-body{
+}
+.card-body{
       margin-top: 10px;
       gap: 5px;
       width: 292px;
@@ -367,14 +367,14 @@ body{
       font-weight: 600;
       padding-bottom: 20px;
       margin-left: 10px;
-  }
-  .body-subtitle{
+}
+.body-subtitle{
       margin-top: 10px;
       color: #00000080;
       display: flex;
       justify-content: space-between;
-  }
-  .btn-syle {
+}
+.btn-syle {
     font-family: "Open Sans";
     font-size: 16px;
     font-weight: 400;
@@ -386,27 +386,39 @@ body{
     display: flex;
     align-items: center;
     padding: 0 12px; /* Butonun içindeki boşluk */
-  }
+}
   
-  .btn-syle img.icon {
+.btn-syle img.icon {
     max-width: 20px;
     height: auto;
     margin-right: 8px; /* İkon ile "Filter" yazısı arasındaki boşluk */
     display: inline-block; /* İkonun buton içinde düzgün hizalanmasını sağlar */
-  }
+}
   
-  .btn-syle:hover {
+.btn-syle:hover {
     background-color: #FF6F61;
     color: white;
-  }
+}
   
-  .button-filter {
+.button-filter {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
   /*===== Top Section Product Finish  ====*/
+  
+/* ProductCard View Section Responsiveness Start */
+@media screen and (max-width: 840px) {
+    .ProductCard-Template .card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    }
+}
 
+
+
+/* ProductCard View Section Responsiveness Finish */
 /* ===== Best Sellers Carousel Start ====*/
 .best-sellers-section{
     display: flex;
