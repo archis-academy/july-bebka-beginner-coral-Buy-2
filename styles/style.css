@@ -596,6 +596,81 @@ body {
 }
 /*===== Top Section Product Finish  ====*/
 
+/*brand banner*/
+.brand-banner-section {
+  width: 1250px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-content {
+  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 500px;
+  top: 300px;
+  position: absolute;
+}
+
+.brand-banner {
+  background-image: url("../images/brand-banner/backgorund.svg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.brand-logo {
+  width: 150px;
+  margin-bottom: 20px;
+  object-position: left center;
+  object-fit: cover;
+}
+
+.brand-banner-h1 {
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+  color: white;
+  
+}
+
+.brand-banner-zara-logo{
+  padding-left: 600px;
+
+}
+
+.collection-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.collection-button:hover {
+  background-color: #ddd;
+}
+
+@media (max-width: 900px) {
+  .brand-banner-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .brand-banner-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*brand banner fınısh*/
+
 /* ===== Best Sellers Carousel Start ====*/
 .best-sellers-section {
   display: flex;
