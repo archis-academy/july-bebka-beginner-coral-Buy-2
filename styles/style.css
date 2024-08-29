@@ -197,7 +197,7 @@ body {
   justify-content: center;
   background-color: rgb(30, 40, 50, 0.05);
   width: 100%;
-padding-bottom: 70px;
+  padding-bottom: 70px;
 }
 
 .second-line-menu {
@@ -253,10 +253,9 @@ padding-bottom: 70px;
   }
 
   .second-line-menu {
-    width: 200px;
+    width: 400px;
     height: 320px;
     padding-top: 20px;
-    padding-right: 250px;
   }
 
   .menu-sections {
@@ -265,6 +264,14 @@ padding-bottom: 70px;
     align-items: center;
     justify-content: space-between;
     padding: 1px;
+  }
+
+  .menu-section {
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 450px;
   }
 }
 @media screen and (max-width: 530px) {
