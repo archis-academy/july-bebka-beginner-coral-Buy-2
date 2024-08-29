@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coral Buy</title>
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,7 +23,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
-  
   <body>
 
         <!--Main Header Template Start-->
@@ -108,30 +108,24 @@
       </div>
     </header>
     <!--Header Category Menu Template End-->    
-
-    <!--Kodlar Buraya Yazılacak-->
+    
     <!-- ======= Hero Section Start ======= -->
-    <div class="top-main-section">
-      <div class="left-frame">
-        <img src="images/hero-section/left_frame.svg" alt="#">
+    <section class="hero-section">
+      <div class="hero-section-container">
+          <div class="collections-content">
+              <h1>Collections</h1>
+              <p> You Can Explore and Shop Many Different Collection <br>
+                  From Various Brands Here.</p>
+              <button class="btn-content btn-content:hover"><img src="images/hero-section/ic_shop.svg">Shop Now</button>
+          </div>
+          <div class="product-image">
+              <img src="images/hero-section/image_product.jpg" alt="#">
+              <div class="bg-design"></div>
+          </div>
       </div>
-      <div class="product-section">
-        <div class="collections-content">
-          <h1 class="content-title content-features">Collections</h1>
-          <p class="content-text content-features">You Can Explore And Shop Many Different Collection <br>
-            From Various Brands Here.</p>
-          <button class="btn-content btn-content:hover">
-            <img src="images/hero-section/ic_shop.svg" alt="#" class="img-padding">Shop Now
-          </button>
-        </div>
-        <div class="product-image">
-          <img src="images/hero-section/image_product.svg" alt="#">
-        </div>
-        <div class="right-frame">
-          <img src="images/hero-section/right_frame.svg" class="img-top" alt="#">
-        </div>
-      </div>
-    </div>
+          <img class="left-frame" src="images/hero-section/left_frame.svg" />
+          <img class="right-frame" src="images/hero-section/right_frame.svg" />
+      </section>
     <!-- ===== Hero Section End === -->
     
     <!--Brand-Logos Start-->
@@ -532,6 +526,5 @@
       </div>
     </section>
     <!-- Newsletter Instagram End -->
-
   </body>
 </html>
