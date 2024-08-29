@@ -245,7 +245,6 @@ body {
   align-items: center;
   gap: 85px;
   margin:0 auto;
-  
 }
 .collections-content{
   display: flex;
@@ -257,13 +256,11 @@ body {
   font-size: 74px;
   font-weight:300;
   line-height: 55px;
-  padding-bottom: 50px;
 }
 .collections-content p{
   font-size: 30px;
   font-weight: 400;
   line-height: 55px;
-  padding-bottom: 40px;
 }
 .btn-content {
   display: flex;
@@ -539,7 +536,7 @@ body {
 .mr-15 {
   margin-right: 15px !important;
 }
-.bg-blue {
+.ProductCard-Template .bg-blue {
   background-color: #1e2832;
   margin-bottom: 40px;
 }
