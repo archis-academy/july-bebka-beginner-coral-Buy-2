@@ -228,6 +228,73 @@ body {
 }
 /*Header Category Menu Template End*/
 
+/* ====== Hero Section Start ====== */
+.top-main-section {
+  padding-left: 301px;
+  padding-bottom: 50px;
+  background-color: #1e28320d;
+}
+.product-section {
+  width: 1226px;
+  height: 562px;
+  display: flex;
+  justify-content: space-between;
+}
+.collections-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 699px;
+  height: 364px;
+  padding-top: 70px;
+}
+.content-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 74px;
+  font-weight: 300;
+}
+.content-text {
+  font-size: 30px;
+  font-weight: 400;
+}
+.content-features {
+  font-family: "Roboto", sans-serif;
+  line-height: 55px;
+  text-align: left;
+}
+.btn-content {
+  width: 223px;
+  height: 72px;
+  margin-top: 15px;
+  margin-left: 7px;
+  padding: 19px 26px 19px 26px;
+  gap: 8px;
+  background-color: #1e2832;
+  color: white;
+  font-family: "Roboto";
+  font-size: 29px;
+  font-weight: 400;
+}
+.btn-content:hover {
+  background-color: #ff6f61;
+  border: none;
+  color: white;
+}
+.right-frame {
+  position: absolute;
+  right: 0;
+  top: 70px;
+}
+.left-frame {
+  position: absolute;
+  left: 0;
+  bottom: 350px;
+}
+.img-top {
+  padding-top: 70px;
+}
+.img-padding {
+  padding-right: 3px;
 /*Header Category Menu Template Responsiveness Start*/
 @media screen and (max-width: 1113px) {
   .second-line-menu {
@@ -372,6 +439,7 @@ body {
   transform: rotate(-15deg);
   right:0px;
   top: 350px;
+
 }
 /* ====== Hero Section End ====== */
 
@@ -436,17 +504,13 @@ body {
   justify-content: center;
 }
 .slider {
-  width: 1000px;
+  width: 1320px;
   height: 70px;
   justify-content: space-between;
   gap: 80px;
   display: flex;
   overflow: hidden;
 }
-
-/*gap çalışmadı padding verdim
-  width değeri:1320px için figmadan büyük duruyor*/
-
 .logos {
   height: 70px;
   display: flex;
@@ -469,6 +533,28 @@ body {
   }
 }
 /*Brand-Logos End*/
+
+/*Brand-Logos Responsiveness start*/
+
+@media screen and (max-width: 1400px) {
+  .slider {
+    width: 90%;
+    max-width: 1000px;
+    gap: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .slider {
+    gap: 10px;
+  }
+  .brand {
+    min-width: 120px;
+    padding: 0px 10px;
+  }
+}
+
+/*Brand-Logos Responsiveness end*/
+
 /* ===== ProductCard Template  Start ====*/
 .ProductCard-Template {
   display: flex;
@@ -480,6 +566,16 @@ body {
   margin-top: 50px;
 }
 
+/* ===== ProductCard Template  Start ====*/
+.ProductCard-Template {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-bottom: 5%;
+  margin-inline: auto;
+  width: 1320px;
+  margin-top: 50px;
+}
 .card-top,
 .card-alt {
   display: flex;
@@ -591,7 +687,9 @@ body {
 .mr-15 {
   margin-right: 15px !important;
 }
+.bg-blue {
 .ProductCard-Template .bg-blue {
+
   background-color: #1e2832;
   margin-bottom: 40px;
 }
@@ -791,6 +889,51 @@ body {
   display: flex;
   justify-content: space-between;
 }
+}
+.top-section-products {
+  display: flex;
+  justify-content: space-between;
+}
+.best-sellers-section ul {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.best-sellers-section li {
+  display: inline-block;
+  margin-right: 25px;
+}
+.best-sellers-section a {
+  text-decoration: none;
+  color: #00000080;
+}
+.best-sellers-section a:hover {
+  color: #ff6f61;
+}
+.btn-syle:hover {
+  background-color: #ff6f61;
+  color: white;
+}
+.btn-syle {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background-color: #1e2832;
+  width: 93px;
+  height: 32px;
+  cursor: pointer;
+  border: none;
+}
+.products-card-category {
+  display: flex;
+  justify-content: space-between;
+}
+
 .image-section {
   position: relative;
 }
@@ -892,6 +1035,7 @@ body {
   margin-left: 3%;
   margin-right: 3%;
   padding-bottom: 3%;
+
   background-color: #1e28320d;
   font-family: "Roboto", sans-serif;
   padding-bottom: 50px;
@@ -1020,6 +1164,7 @@ body {
 }
 .form-email {
   display: flex;
+
   justify-content: center;
   margin-top: 50px;
 }
